@@ -1,0 +1,46 @@
+
+@import url("https://fonts.googleapis.com/css?family=Press+start+2P");
+
+@import  url("https://fonts.googleapis.com/css?family=VT323");
+
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Appe {
+    text-align: right;
+    color: brown;
+    font-style: italic;
+    opacity: 0.85;
+
+}
+
+.nav-links{
+    display: flex;
+
+}
+
+.nav-button {
+
+    background-color: aqua;
+    padding: 1% 1%;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+body{
+    background: url("../pages/assets/background/parallax-bg.gif") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
